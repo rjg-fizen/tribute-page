@@ -1,0 +1,241 @@
+body,
+ul,
+p {
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: arial;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+nav {
+  text-align: right;
+  padding: 20px;
+  background-color: #222233;
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+nav a {
+  color: #FFF;
+}
+
+nav a:visited {
+  color: #FFF;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+header {
+  background: #FFFFFF url("https://s-media-cache-ak0.pinimg.com/originals/ce/90/13/ce901355e6e26b12c7a992339f60fc73.jpg") center top/100% no-repeat;
+}
+
+#title {
+  padding-top: 25%;
+  padding-bottom: 25%;
+  margin-left: 15%;
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+.superheading {
+  font-weight: 900;
+  padding: 20px;
+  margin: 0;
+  font-size: 4.5em;
+  flex: 1;
+  max-width: 700px;
+  text-align: center;
+}
+
+#title p {
+  font-style: italic;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+#theone p {
+  font-size: 1.5em;
+  line-height: 150%;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.years {
+  background-color: rgb(242, 242, 242);
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.years p {
+  font-size: 1.5em;
+  padding: 0 15px 15px 15px;
+}
+
+.years .quote {
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.years img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#whycare {
+  padding: 0;
+}
+
+#sadkeanu {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox.left {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flexcell {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+}
+
+.two-columns {
+  min-width: 50%;
+  width: 50%;
+}
+
+#whycare {
+  background-color: #222233;
+}
+
+#sosad {
+  text-align: center;
+  color: white;
+}
+
+#sosad p {
+  padding: 25px 25% 0 25%;
+}
+
+#arrow-left {
+  font-size: 10.5em;
+  margin-top: 0;
+}
+
+#arrow-up {
+  font-size: 10.5em;
+  margin-top: 0;
+}
+
+#who p {
+  margin: 0 15% 0 15%;
+}
+
+.redpill {
+  background-color: #c3d2ef;
+}
+
+.redpill ul {
+  margin-top: 10%;
+  font-family: 'Gloria Hallelujah', cursive;
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+footer p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+footer a:hover {
+  color: red;
+}
+
+
+/*Media Queries*/
+
+@media(min-width: 1300px) {
+  #arrow-left {
+    display: block;
+  }
+  #arrow-up {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  #title {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 800px) {
+  #arrow-up {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #title {
+    padding-bottom: 0;
+    padding-top: 1px;
+  }
+  .two-columns {
+    width: 400px;
+  }
+  #arrow-left {
+    display: none;
+  }
+  #arrow-up {
+    display: block;
+  }
+}
